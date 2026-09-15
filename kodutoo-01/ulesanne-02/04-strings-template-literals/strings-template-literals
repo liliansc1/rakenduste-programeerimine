@@ -1,0 +1,9 @@
+//Example: cleaning up a name and building a greeting.
+
+let name = " Liina  ";
+
+name = name.trim();
+
+const greeting = `Tere, ${name}!`;
+
+console.log(greeting);
